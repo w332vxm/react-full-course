@@ -1,12 +1,10 @@
 import React from "react";
-import Final from "./HigherOrderComp/final/ClickCounter";
-import Final2 from "./HigherOrderComp/final/HoverCounter";
+import Final from "./1-useState/starter/useState-example";
 
 function App() {
   return (
     <div className="App">
-      <Final name={"srikanth"} />
-      <Final2 />
+      <Final />
     </div>
   );
 }
